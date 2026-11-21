@@ -1,0 +1,9 @@
+# host(src/의 분석 코드가 실제로 쓰는 버전)와 동일하게 고정
+pandas==2.3.2
+numpy==2.2.6
+pyarrow==19.0.0
+scipy==1.13.1
+openpyxl==3.1.5
+matplotlib==3.10.0
+psycopg2-binary==2.9.9
+pytest==8.3.3

@@ -17,3 +17,13 @@ output/gate1_results.pkl
 ~$*
 __pycache__/
 *.pyc
+
+# 비밀값 (API 키) — .env.example만 커밋
+.env
+
+# 행정·개인 문서 (신청서·서약서·양식·활동기록·발표 원본) — 저장소에 올리지 않음
+docs/reports/
+
+# 작업 중 임시 파일
+output/_facts_dump.txt
+.pytest_cache/
