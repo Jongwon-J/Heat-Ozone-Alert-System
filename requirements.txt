@@ -1,0 +1,9 @@
+# 호스트(로컬)에서 분석 코드를 돌릴 때의 패키지. docker/requirements-airflow.txt와 같은 버전으로 고정.
+# 권장 Python: 3.11 (Docker 이미지 apache/airflow:2.9.3-python3.11과 동일)
+pandas==2.3.2
+numpy==2.2.6
+pyarrow==19.0.0
+scipy==1.13.1
+openpyxl==3.1.5
+matplotlib==3.10.0
+pytest==8.3.3

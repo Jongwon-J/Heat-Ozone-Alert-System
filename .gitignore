@@ -1,0 +1,29 @@
+# 원본·대용량 데이터 (커밋 금지)
+data/
+data/raw/
+asos_seoul.csv
+airkorea*.xlsx
+ASOS_TIM_*.csv
+
+# 재생성 가능한 중간·파생 산출물
+merged_ozone_weather.csv
+output/merged_ozone_weather.csv
+*.parquet
+output/gate1_results.pkl
+*.pkl
+
+# 기타
+.DS_Store
+~$*
+__pycache__/
+*.pyc
+
+# 비밀값 (API 키) — .env.example만 커밋
+.env
+
+# 행정·개인 문서 (신청서·서약서·양식·활동기록·발표 원본) — 저장소에 올리지 않음
+docs/reports/
+
+# 작업 중 임시 파일
+output/_facts_dump.txt
+.pytest_cache/

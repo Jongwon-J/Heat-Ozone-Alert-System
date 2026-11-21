@@ -1,0 +1,6 @@
+# 4주차 최소 인프라용 Airflow 이미지. 기존 분석 함수(src/gate1_analysis.py 등)가 쓰는
+# 패키지만 host와 같은 버전으로 고정 설치한다. 분석 로직은 추가하지 않는다.
+FROM apache/airflow:2.9.3-python3.11
+
+COPY docker/requirements-airflow.txt /requirements-airflow.txt
+RUN pip install --no-cache-dir -r /requirements-airflow.txt
