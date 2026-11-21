@@ -1,5 +1,7 @@
 # 이동노동자 폭염·대기질 복합리스크 평가 및 대응 시스템 (팀 씨앗)
 
+*Heat-Ozone-Alert-System — Compound Risk Assessment and Response System of Extreme Heat and Air Quality for Mobile Workers*
+
 HUFS H-UP 12기. 서울 이동노동자가 **폭염특보가 없는데 오존이 높은 근무시간(사각지대)** 에 노출되는지 확인하고,
 내일 오후 오존 고농도 예측과 구별 쉼터 접근성 분석으로 대응 방안을 만드는 프로젝트입니다.
 
